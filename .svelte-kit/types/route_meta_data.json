@@ -1,0 +1,14 @@
+{
+	"/": [
+		"src/routes/+page.server.ts"
+	],
+	"/api/primarykey": [
+		"src/routes/api/primarykey/+server.ts"
+	],
+	"/api/tables": [
+		"src/routes/api/tables/+server.ts"
+	],
+	"/api/tables/[tableName]": [
+		"src/routes/api/tables/[tableName]/+server.ts"
+	]
+}
